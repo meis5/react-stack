@@ -1,6 +1,8 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 
+import styles from 'library/styles'
+
 import Header from '../components/Header'
 
 import HomeRoute from './home'
@@ -10,6 +12,7 @@ import ComponentsRoute from './components'
 
 export default () => (
   <div>
+    <style dangerouslySetInnerHTML={{ __html: styles }} />
     <Header />
     <Route exact path="/" component={HomeRoute} />
     <Route path="/styles" component={HomeRoute} />

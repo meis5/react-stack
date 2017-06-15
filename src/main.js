@@ -19,6 +19,7 @@ app.use('/static', express.static(path.resolve(__dirname, '../../public/static')
 app.get('*', (req, res) => {
   res.send(render({
     location: req.url,
+    title: 'react-stack'
   }))
 })
 

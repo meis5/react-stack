@@ -46,7 +46,4 @@ export default `
 .navbar-nav > li:hover > ul {
   display: block;
 }
-
-
-
 `

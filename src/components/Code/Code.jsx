@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import copy from 'copy-text-to-clipboard'
 
-import Highlight from 'document/components/Highlight'
+import Highlight from 'library/components/Highlight'
 
 export default class Code extends PureComponent {
   handleCopy = () => {

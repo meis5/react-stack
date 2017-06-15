@@ -10,7 +10,7 @@ export default class C extends PureComponent {
         <a className="btn btn-warning" href="">asdfsff</a>
         <a className="btn btn-danger" href="">asdfsff</a>
         <a className="btn btn-success" href="">asdfsff</a>
-        <p>sdfsfsfdf</p>
+        <p>sdfsfsfdfsdsfsadfsdf</p>
       </div>
     )
   }
